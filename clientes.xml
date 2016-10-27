@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="empresa.Lista_cliente" id="Lista_cliente0">
+  <void property="lista_cliente">
+   <void method="add">
+    <object class="empresa.Cliente">
+     <void property="apellido">
+      <string>casanova</string>
+     </void>
+     <void property="nombre">
+      <string>alex</string>
+     </void>
+     <void property="presupuestos">
+      <object class="empresa.Lista_presupuesto" id="Lista_presupuesto0">
+       <void property="presupuesto">
+        <void method="add">
+         <object class="empresa.Presupuesto">
+          <void property="concepto">
+           <string>a</string>
+          </void>
+          <void property="estado">
+           <string>pendiente</string>
+          </void>
+          <void property="num">
+           <int>1</int>
+          </void>
+          <void property="precio_neto">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="telefono">
+      <string>3325253</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="empresa.Cliente">
+     <void property="apellido">
+      <string>huelamo</string>
+     </void>
+     <void property="nombre">
+      <string>ricard</string>
+     </void>
+     <void property="presupuestos">
+      <object class="empresa.Lista_presupuesto"/>
+     </void>
+     <void property="telefono">
+      <string>234543</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="empresa.Cliente">
+     <void property="apellido">
+      <string>vallve</string>
+     </void>
+     <void property="nombre">
+      <string>alan</string>
+     </void>
+     <void property="presupuestos">
+      <object class="empresa.Lista_presupuesto"/>
+     </void>
+     <void property="telefono">
+      <string>345</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="empresa.Cliente">
+     <void property="apellido">
+      <string>ds</string>
+     </void>
+     <void property="nombre">
+      <string>sd</string>
+     </void>
+     <void property="presupuestos">
+      <object class="empresa.Lista_presupuesto"/>
+     </void>
+     <void property="telefono">
+      <string>sd</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="empresa.Cliente">
+     <void property="apellido">
+      <string>hola</string>
+     </void>
+     <void property="nombre">
+      <string>hola</string>
+     </void>
+     <void property="presupuestos">
+      <object class="empresa.Lista_presupuesto"/>
+     </void>
+     <void property="telefono">
+      <string>123</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="empresa.Cliente">
+     <void property="apellido">
+      <string>adios</string>
+     </void>
+     <void property="nombre">
+      <string>adios</string>
+     </void>
+     <void property="presupuestos">
+      <object class="empresa.Lista_presupuesto"/>
+     </void>
+     <void property="telefono">
+      <string>789</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
